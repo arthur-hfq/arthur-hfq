@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="minervaBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#191d24" />
+      <stop offset="100%" stop-color="#121519" />
+    </linearGradient>
+  </defs>
+
+  <!-- Frame -->
+  <rect x="1" y="1" width="848" height="198" rx="4" fill="url(#minervaBg)" stroke="#292f39" stroke-width="1.5" />
+  
+  <!-- Header Bar -->
+  <rect x="1" y="1" width="848" height="34" fill="#14171d" />
+  <line x1="1" y1="35" x2="849" y2="35" stroke="#292f39" stroke-width="1" />
+
+  <circle cx="20" cy="18" r="4.5" fill="#383e4a" />
+  <circle cx="36" cy="18" r="4.5" fill="#383e4a" />
+  <circle cx="52" cy="18" r="4.5" fill="#383e4a" />
+
+  <text x="74" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="bold" fill="#f0f6fc">
+    Minerva // Mindustry Logic Compiler Architecture Pipeline
+  </text>
+  <text x="830" y="22" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#d4a72c">
+    STATUS: PLANEJADO // v0.0
+  </text>
+
+  <!-- Pipeline Stages Diagram -->
+  <!-- Stage 1 -->
+  <g transform="translate(20, 52)">
+    <rect x="0" y="0" width="145" height="88" rx="3" fill="#14171c" stroke="#292f39" stroke-width="1.2" />
+    <text x="12" y="24" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="bold" fill="#58a6ff">STAGE 01</text>
+    <text x="12" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="bold" fill="#f0f6fc">LEXER &amp; AST</text>
+    <text x="12" y="64" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" fill="#8b949e">Grammar Validation</text>
+    <text x="12" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" fill="#8b949e">Static Type System</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <text x="178" y="100" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="bold" fill="#d4a72c">→</text>
+
+  <!-- Stage 2 -->
+  <g transform="translate(205, 52)">
+    <rect x="0" y="0" width="145" height="88" rx="3" fill="#14171c" stroke="#292f39" stroke-width="1.2" />
+    <text x="12" y="24" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="bold" fill="#58a6ff">STAGE 02</text>
+    <text x="12" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="bold" fill="#f0f6fc">LINEAR IR</text>
+    <text x="12" y="64" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" fill="#8b949e">Three-Address Code</text>
+    <text x="12" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" fill="#8b949e">Algebraic Reductions</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <text x="363" y="100" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="bold" fill="#d4a72c">→</text>
+
+  <!-- Stage 3 -->
+  <g transform="translate(390, 52)">
+    <rect x="0" y="0" width="145" height="88" rx="3" fill="#14171c" stroke="#292f39" stroke-width="1.2" />
+    <text x="12" y="24" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="bold" fill="#58a6ff">STAGE 03</text>
+    <text x="12" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="bold" fill="#f0f6fc">INTERFERENCE</text>
+    <text x="12" y="64" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" fill="#8b949e">Liveness Analysis</text>
+    <text x="12" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" fill="#8b949e">Variable Overlaps</text>
+  </g>
+
+  <!-- Arrow 3 -->
+  <text x="548" y="100" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="bold" fill="#d4a72c">→</text>
+
+  <!-- Stage 4 -->
+  <g transform="translate(575, 52)">
+    <rect x="0" y="0" width="145" height="88" rx="3" fill="#14171c" stroke="#292f39" stroke-width="1.2" />
+    <text x="12" y="24" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="bold" fill="#d4a72c">STAGE 04</text>
+    <text x="12" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="bold" fill="#f0f6fc">GRAPH COLOR</text>
+    <text x="12" y="64" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" fill="#8b949e">Chaitin-Briggs Alloc</text>
+    <text x="12" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" fill="#8b949e">Optimal Regs Reuse</text>
+  </g>
+
+  <!-- Arrow 4 -->
+  <text x="733" y="100" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="bold" fill="#2ea043">→</text>
+
+  <!-- Stage 5 Target -->
+  <g transform="translate(755, 52)">
+    <rect x="0" y="0" width="75" height="88" rx="3" fill="#14171c" stroke="#2ea043" stroke-width="1.2" />
+    <text x="10" y="24" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="bold" fill="#2ea043">EMIT</text>
+    <text x="10" y="48" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="bold" fill="#f0f6fc">MLOG</text>
+    <text x="10" y="70" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9" fill="#8b949e">Target</text>
+    <text x="10" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9" fill="#8b949e">Assembly</text>
+  </g>
+
+  <!-- Bottom Details Bar -->
+  <line x1="20" y1="158" x2="830" y2="158" stroke="#232832" stroke-width="1" />
+  
+  <text x="24" y="180" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#8b949e">
+    TARGET ARCHITECTURE:
+  </text>
+  
+  <text x="175" y="180" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="bold" fill="#f0f6fc">
+    Mindustry Logic Microprocessor Instruction Set
+  </text>
+
+  <text x="560" y="180" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#8b949e">
+    // MINIMIZAÇÃO DE JUMPS VIA DFA
+  </text>
+</svg>

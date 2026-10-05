@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="stressBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#191d24" />
+      <stop offset="100%" stop-color="#121519" />
+    </linearGradient>
+  </defs>
+
+  <!-- Frame -->
+  <rect x="1" y="1" width="848" height="318" rx="4" fill="url(#stressBg)" stroke="#292f39" stroke-width="1.5" />
+  
+  <!-- Terminal Header Bar -->
+  <rect x="1" y="1" width="848" height="34" fill="#14171d" />
+  <line x1="1" y1="35" x2="849" y2="35" stroke="#292f39" stroke-width="1" />
+
+  <!-- Terminal Buttons -->
+  <circle cx="20" cy="18" r="4.5" fill="#e06c75" />
+  <circle cx="36" cy="18" r="4.5" fill="#e5c07b" />
+  <circle cx="52" cy="18" r="4.5" fill="#98c379" />
+
+  <text x="74" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="bold" fill="#f0f6fc">
+    mkb-api-stress // Container-Isolated API Stress &amp; Live Telemetry
+  </text>
+  <text x="830" y="22" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#58a6ff">
+    v1.0 (Shell) ➔ v2.0 (Go + Matemática)
+  </text>
+
+  <!-- Environment Metadata Subheader -->
+  <rect x="20" y="46" width="810" height="26" rx="2" fill="#202630" stroke="#2d3542" stroke-width="1" />
+  <text x="32" y="63" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="bold" fill="#d4a72c">
+    STRESS TEST TELEMETRY (EPHEMERAL CONTAINER)
+  </text>
+  <text x="818" y="63" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#8b949e">
+    CEILINGS: 0.5 CPU | 256MB RAM // 100 REQS // SUCESSO: 100%
+  </text>
+
+  <!-- Main Telemetry Body: Left Column (Metrics) & Right Column (Timeline) -->
+  <!-- Left Box: Latency & Throughput -->
+  <g transform="translate(20, 82)">
+    <rect x="0" y="0" width="395" height="186" rx="2" fill="#14171c" stroke="#232832" stroke-width="1" />
+    <text x="16" y="24" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="bold" fill="#58a6ff">
+      HTTP LATENCY &amp; THROUGHPUT
+    </text>
+    <line x1="16" y1="34" x2="379" y2="34" stroke="#232832" stroke-width="1" />
+
+    <text x="16" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#8b949e">AVG LATENCY :</text>
+    <text x="140" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="bold" fill="#2ea043">14ms</text>
+
+    <text x="16" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#8b949e">MIN / MAX   :</text>
+    <text x="140" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#f0f6fc">5ms / 42ms</text>
+
+    <text x="16" y="100" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#8b949e">PERCENTIL P95:</text>
+    <text x="140" y="100" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="bold" fill="#d4a72c">22ms</text>
+
+    <text x="16" y="122" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#8b949e">PERCENTIL P99:</text>
+    <text x="140" y="122" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="bold" fill="#d4a72c">38ms</text>
+
+    <text x="16" y="146" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#8b949e">THROUGHPUT  :</text>
+    <text x="140" y="146" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="bold" fill="#58a6ff">168.42 req/s</text>
+
+    <text x="16" y="168" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#8b949e">STATUS HTTP :</text>
+    <text x="140" y="168" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#2ea043">200 OK (100/100 - 100%)</text>
+  </g>
+
+  <!-- Right Box: CPU Load Timeline & Memory Profile -->
+  <g transform="translate(435, 82)">
+    <rect x="0" y="0" width="395" height="186" rx="2" fill="#14171c" stroke="#232832" stroke-width="1" />
+    <text x="16" y="24" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="bold" fill="#d4a72c">
+      LIVE CONTAINER PROFILE (200ms SAMPLING)
+    </text>
+    <line x1="16" y1="34" x2="379" y2="34" stroke="#232832" stroke-width="1" />
+
+    <text x="16" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#8b949e">CPU TIMELINE (Capacity %):</text>
+
+    <!-- Bar 1: 14.2% -->
+    <text x="16" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#c9d1d9">14.2%</text>
+    <rect x="68" y="68" width="35" height="12" rx="1" fill="#2ea043" />
+
+    <!-- Bar 2: 58.6% -->
+    <text x="16" y="100" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#c9d1d9">58.6%</text>
+    <rect x="68" y="90" width="144" height="12" rx="1" fill="#e5c07b" />
+
+    <!-- Bar 3: 94.0% -->
+    <text x="16" y="122" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#c9d1d9">94.0%</text>
+    <rect x="68" y="112" width="232" height="12" rx="1" fill="#e06c75" />
+    <text x="306" y="122" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="bold" fill="#e06c75">PEAK</text>
+
+    <!-- Bar 4: 31.5% -->
+    <text x="16" y="144" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#c9d1d9">31.5%</text>
+    <rect x="68" y="134" width="78" height="12" rx="1" fill="#2ea043" />
+
+    <!-- Memory Profiling summary -->
+    <text x="16" y="170" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#8b949e">PEAK RAM    :</text>
+    <text x="110" y="170" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="bold" fill="#f0f6fc">54.1 MiB / 256 MiB (21.1%)</text>
+  </g>
+
+  <!-- Bottom Badges / Capabilities Bar -->
+  <line x1="20" y1="280" x2="830" y2="280" stroke="#232832" stroke-width="1" />
+  
+  <text x="24" y="300" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#8b949e">
+    FEATURES:
+  </text>
+  
+  <rect x="100" y="288" width="130" height="18" rx="2" fill="#202630" />
+  <text x="165" y="301" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="bold" fill="#d4a72c">
+    HARD CPU/RAM CEILINGS
+  </text>
+
+  <rect x="240" y="288" width="130" height="18" rx="2" fill="#202630" />
+  <text x="305" y="301" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="bold" fill="#58a6ff">
+    200MS TELEMETRY DAEMON
+  </text>
+
+  <rect x="380" y="288" width="130" height="18" rx="2" fill="#202630" />
+  <text x="445" y="301" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="bold" fill="#e8eaed">
+    NEOVIM LUA INTEGRATION
+  </text>
+
+  <rect x="520" y="288" width="150" height="18" rx="2" fill="#202630" />
+  <text x="595" y="301" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="bold" fill="#8b949e">
+    EPHEMERAL CLEAN TRAPS
+  </text>
+
+  <text x="826" y="301" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="bold" fill="#d4a72c">
+    [ REPOSITÓRIO ↗ ]
+  </text>
+</svg>

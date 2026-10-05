@@ -1,160 +1,119 @@
 # Arthur H. Faria Queiros (@Mepper)
 
-```text
-+------------------------------------------------------------------------------+
-|  MEPPER // ACERVO TÉCNICO & REGISTRO DE ENGENHARIA DE SISTEMAS               |
-+------------------------------------------------------------------------------+
-|  IDENTIDADE  : Arthur H. Faria Queiros (@Mepper / @arthur-hfq)               |
-|  OCUPAÇÃO    : Engenharia de Software & Matemática                           |
-|  STATUS      : REGISTRO: Acervo Ativo // REV 2026.10                         |
-|  AMBIENTE    : Linux x86_64 (Kernel >= 6.x) // POSIX // Btrfs CoW            |
-+------------------------------------------------------------------------------+
-```
+<p align="center">
+  <img src="./assets/header-banner.svg" alt="Arthur H. Faria Queiros // Engineering Node" width="100%" />
+</p>
 
 <div align="center">
-  <img src="./assets/avatar.png" width="144" height="144" alt="Arthur H. Faria Queiros" style="border-radius: 50%; border: 2px solid #292f39;" />
+  <img src="./assets/avatar.png" width="130" height="130" alt="Arthur H. Faria Queiros" style="border-radius: 50%; border: 2px solid #292f39;" />
   <br/><br/>
   <b>Arthur H. Faria Queiros</b> &nbsp;|&nbsp; <code>@Mepper</code><br/>
-  <i>Engenheiro de Software & Estudante de Matemática</i>
+  <i>Engenheiro de Software &amp; Pesquisador de Matemática</i>
   <br/><br/>
-  <code>REGISTRO: Acervo Ativo</code> &nbsp;·&nbsp; <code>REV 2026.10</code> &nbsp;·&nbsp; <code>LÂMINAS B5</code>
+  <code>OPEN-SOURCE FORGE</code> &nbsp;·&nbsp; <code>POSIX / ARCH LINUX</code> &nbsp;·&nbsp; <code>REV 2026.10</code>
   <br/><br/>
-  <a href="https://mepper.xyz"><code>[ Acervo Técnico (mepper.xyz) ↗ ]</code></a> &nbsp;
+  <a href="https://mepper.xyz"><code>[ Acervo Teórico (mepper.xyz) ↗ ]</code></a> &nbsp;
   <a href="https://x.com/my_name_is_arth"><code>[ X (@my_name_is_arth) ↗ ]</code></a> &nbsp;
-  <a href="https://github.com/arthur-hfq"><code>[ Repositórios GitHub ↗ ]</code></a>
+  <a href="https://github.com/arthur-hfq?tab=repositories"><code>[ Repositórios Públicos ↗ ]</code></a>
 </div>
 
 ---
 
-### § 00 // Propedêutica & Filosofia de Construção
+### § 00 // O Laboratório Open-Source & Propósito Deste Espaço
 
-Engenheiro de software e estudante dedicado de matemática — com foco formal em álgebra linear, cálculo diferencial e integral, computação científica e sistemas de baixo nível. Desenvolvo sistemas robustos partindo estritamente de primeiros princípios, rejeitando atalhos superficiais e fundamentando cada linha de código em rigor dedutivo e modelagem axiomática.
+Este perfil no GitHub funciona como uma forja pública e laboratório de engenharia. É o espaço onde transformo investigação teórica e primeiros princípios em software executável, ferramentas de infraestrutura local, utilitários de terminal e compiladores.
 
-> [!NOTE]
-> **Declaração de Princípios & Natureza do Acervo**
-> Este espaço e o acervo em [mepper.xyz](https://mepper.xyz) existem com uma finalidade única e intransigente: registrar formalmente o acervo de conteúdo que estudo, investigo e desenvolvo. Todo o material disponibilizado é de acesso inteiramente aberto e pode ser lido, copiado, compartilhado e utilizado sem quaisquer custos, travas de assinatura ou poluição publicitária.
-> 
-> Não se trata de tutoriais efêmeros ou receitas para consumo rápido, mas sim de um acervo intelectual voltado primariamente para documentação e consulta fundamentadas no método dedutivo.
+O ecossistema divide-se em duas esferas complementares:
 
----
+- **[mepper.xyz](https://mepper.xyz) (Acervo Teórico)**: O arquivo formal onde publico compêndios, deduções matemáticas em lâminas B5, fundamentos de álgebra linear, cálculo e propedêutica epistemológica.
+- **GitHub @arthur-hfq (Engenharia de Sistemas)**: O ambiente de implementação aberta. Aqui o foco reside na robustez do código-fonte, performance determinística, arquitetura de sistemas operacionais e ausência de camadas desnecessárias de abstração.
 
-### § 01 // Compêndio Fundamental: Tomo I
-
-O núcleo teórico deste acervo encontra-se consolidado no **Compêndio 0**, estruturado na geometria física e digital de lâminas modulares B5.
-
-```text
-TOMO I // COMPÊNDIO 0: Da Fundamentação e Método Epistemológico
-FIXAÇÃO: 05 OUT 2026 // MODULARIDADE: Lâminas B5 (f0 a f2)
-```
-
-Fundamentos da propedêutica formal, estruturação de axiomas, lemas e teoremas, modularidade em lâminas B5 e diretrizes analíticas para leitura dos tratados de ponta a ponta:
-
-| Fascículo | Título | Escopo / Extensão |
-| :--- | :--- | :--- |
-| **§ f0** | **Propedêutica Formal & O Método Dedutivo** | Epistemologia, primeiros princípios e rejeição da indução ingênua |
-| **§ f1** | **A Estrutura Tripartite: Axioma, Lema e Teorema** | Arquitetura de derivação lógica e encadeamento formal de premissas |
-| **§ f2** | **Geometria do Suporte: A Lâmina B5 e Modularidade** | Restrição física, densidade tipográfica e atomicidade do conhecimento |
-
-Consulte o acervo integral em: [mepper.xyz](https://mepper.xyz).
+Todo software publicado neste espaço é de código aberto, concebido sob o princípio da transparência e utilidade real: sem muros de assinatura, sem coleta invasiva de telemetria e sem dependências ocultas.
 
 ---
 
-### § 02 // Projetos em Desenvolvimento (Engenharia de Sistemas)
+### § 01 // Projetos em Desenvolvimento Ativo
 
 #### 01. mkb-grid
 *Bespoke Terminal UI & Infrastructure Control Node for Local Containers*
 
-```text
-+--------------------------------------------------------------+
-|  [MKB-GRID] INFRASTRUCTURE CONTROL NODE                      |
-+--------------------------------------------------------------+
-|  SERVICES DASHBOARD                                          |
-|  Total Nodes: 4 | Running: 3 | Paused: 1                     |
-|                                                              |
-|  > mkb_svc_postgres_5432       Up 4 hours      5432->5432    |
-|    mkb_svc_redis_6379          Up 4 hours      6379->6379    |
-|    mkb_svc_kafka_9092          Up 2 hours      9092->9092    |
-|    mkb_svc_rabbitmq_5672       Exited (0)      5672->5672    |
-|                                                              |
-+--------------------------------------------------------------+
-```
+<p align="center">
+  <a href="https://github.com/arthur-hfq/mkb-grid">
+    <img src="./assets/card-mkb-grid.svg" alt="mkb-grid Infrastructure Dashboard" width="100%" />
+  </a>
+</p>
 
-- **Classificação**: Infraestrutura & TUI
-- **Estado**: `EM REESCRITA // v1.0 (Shell POC) -> v2.0 (Rust + Podman + Quickshell)`
+- **Domínio**: Infraestrutura Local, Orquestração &amp; TUI
+- **Estado**: `v1.0 (Shell POC funcional) -> v2.0 (Reescrita em Rust + Podman + Quickshell)`
 - **Repositório**: [`arthur-hfq/mkb-grid`](https://github.com/arthur-hfq/mkb-grid)
-- **Especificações de Arquitetura**:
-  - Painel de controle TUI brutalista orientado a teclado para orquestração de infraestrutura local de bancos e mensageria (PostgreSQL 16, Redis 7, Kafka 3.7 KRaft mode, RabbitMQ 3).
-  - Descoberta automatizada de portas livres via varredura de sockets TCP do host (`ss` e mapeamentos de runtime) para eliminação de colisões.
-  - Snapshots atômicos de subvolumes Btrfs Copy-on-Write (CoW) para rollback instantâneo de bancos de dados a um ponto no tempo sem recriação de contêineres.
-  - Isolamento e topologia de rede em pontes personalizadas (`mkb_net_*`) com hot-attach e panorama agregado de logs em tempo real.
-  - Exportação determinística para `mkb-grid-compose.yml`.
+- **Motivação &amp; Arquitetura**:
+  - Elimina comandos extensos de `docker run` e interfaces web pesadas através de um painel brutalista de terminal orientado a teclado (atalhos Vim).
+  - **Snapshots Atômicos Btrfs CoW**: Utiliza subvolumes Copy-on-Write do Btrfs para persistência de dados dos bancos (PostgreSQL, Redis, Kafka KRaft), permitindo gerar snapshots instantâneos e realizar rollbacks sem necessidade de recriar contêineres.
+  - **Descoberta de Portas Livres**: Varre sockets TCP do host via `ss` e mapeamentos de runtime para alocar portas livres automaticamente, eliminando colisões de rede no desenvolvimento local.
+  - **Topologia &amp; Panorama**: Criação e isolamento de redes em bridge com agregação contínua de logs de todos os nós conectados.
 
 ---
 
 #### 02. mkb-api-stress
-*Docker-Isolated API Stress & Load Testing Engine with Live Telemetry*
+*Docker-Isolated API Stress & Load Testing Engine with Live Container Telemetry*
 
-```text
-+--------------------------------------------------------------+
-|  [MARKAB] STRESS TEST REPORT                                 |
-+--------------------------------------------------------------+
-|  ENVIRONMENT : Docker (0.5 CPU | 256m RAM)                   |
-|  TOTAL REQS  : 100                                           |
-|  SUCCESS     : 100 (100%)                                    |
-|  FAILED      : 0 (0%)                                        |
-|                                                              |
-|  AVG LATENCY : 14ms (P95: 22ms | P99: 38ms)                  |
-|  THROUGHPUT  : 168.42 req/s                                  |
-|  MAX CPU     : 94.0% (Normalized Timeline)                   |
-|  MAX RAM     : 54.1MiB / 256MiB                              |
-+--------------------------------------------------------------+
-```
+<p align="center">
+  <a href="https://github.com/arthur-hfq/mkb-api-stress">
+    <img src="./assets/card-mkb-api-stress.svg" alt="mkb-api-stress Telemetry Dashboard" width="100%" />
+  </a>
+</p>
 
-- **Classificação**: Sistemas & Concorrência
-- **Estado**: `EM REESCRITA // v1.0 (Shell POC) -> v2.0 (Go + Matemática Estocástica)`
+- **Domínio**: Sistemas de Alta Performance, Telemetria &amp; Concorrência
+- **Estado**: `v1.0 (Shell POC funcional) -> v2.0 (Reescrita em Go + Modelagem Estocástica)`
 - **Repositório**: [`arthur-hfq/mkb-api-stress`](https://github.com/arthur-hfq/mkb-api-stress)
-- **Especificações de Arquitetura**:
-  - Motor determinístico de testes de carga executado contra instâncias isoladas em contêineres efêmeros com tetos rígidos de hardware (`--cpus`, `--memory`).
-  - Telemetria de alta frequência com amostragem a cada 200ms via daemon em segundo plano, computando linha do tempo normalizada de capacidade da CPU e pico de memória.
-  - Relatório brutalista em terminal com visualizador de códigos de status HTTP e percentis de latência (P50, P90, P95, P99).
-  - Integração nativa com buffers do Neovim via Lua para execução imediata durante o desenvolvimento de backends.
+- **Motivação &amp; Arquitetura**:
+  - Testes de carga tradicionais executados no host mascaram vazamentos de memória e gargalos de CPU que surgem apenas em contêineres de produção com cotas estritas (ECS, Kubernetes).
+  - Executa backends sob **tetos físicos rígidos** (`--cpus`, `--memory`) em contêineres efêmeros descartáveis com limpeza automática via process traps.
+  - **Daemon de Telemetria (200ms)**: Amostra saturação em tempo real, gerando relatórios de percentis de latência (P50, P95, P99) e linha do tempo normalizada da capacidade da CPU.
+  - **Integração Neovim via Lua**: Comunicação bidirecional direta com buffers do Neovim para disparar benchmarks e visualizar relatórios dentro do fluxo de desenvolvimento.
 
 ---
 
 #### 03. Minerva
 *Mindustry Logic High-Level Compiler*
 
-- **Classificação**: Compiladores & Autômatos
-- **Estado**: `PLANEJADO // Versão 0.0`
-- **Especificações de Arquitetura**:
-  - Compilador de linguagem de alto nível com tipagem estática voltado para o conjunto de instruções dos microprocessadores lógicos do Mindustry.
-  - Front-end com parser léxico/sintático gerador de árvore de sintaxe abstrata (AST) validada formalmente.
-  - Síntese de representação intermediária linearizada (IR) com otimização de expressões algébricas.
-  - Alocador ótimo de registradores baseado em coloração de grafos de interferência (Chaitin-Briggs).
-  - Minimização de saltos condicionais e fluxo de controle modelado por autômatos finitos determinísticos (DFA).
+<p align="center">
+  <img src="./assets/card-minerva.svg" alt="Minerva Compiler Pipeline" width="100%" />
+</p>
+
+- **Domínio**: Compiladores, Teoria de Grafos &amp; Autômatos Finitos
+- **Estado**: `Planejado // Versão 0.0 (Design de Arquitetura &amp; Especificação Formal)`
+- **Motivação &amp; Arquitetura**:
+  - Compilador de linguagem estruturada de alto nível direcionado ao conjunto de instruções dos microprocessadores lógicos do Mindustry (Mlog).
+  - **Pipeline em 5 Estágios**:
+    1. *Análise Léxica &amp; Sintática*: Geração de AST com checagem estática de tipos.
+    2. *Representação Intermediária (IR)*: Código de três endereços linearizado com simplificação algébrica de expressões.
+    3. *Grafo de Interferência*: Análise formal de tempo de vida de variáveis (*liveness analysis*).
+    4. *Coloração de Grafos (Chaitin-Briggs)*: Alocação ótima dos 64 registradores disponíveis no hardware virtual do jogo.
+    5. *Emissão MLOG &amp; DFA*: Minimização determinística de saltos condicionais via autômatos finitos.
 
 ---
 
-### § 03 // Matriz Operacional & Ferramental
+### § 02 // Matriz Operacional & Ferramentas
 
-```text
-SISTEMAS OPERACIONAIS : Linux x86_64 (Arch Linux, Kernel >= 6.x)
-SISTEMAS DE ARQUIVOS  : Btrfs (Subvolumes CoW, Snapshots Atômicos)
-ISOLAMENTO & RUNTIMES : OCI Containers, Docker Engine, Podman
-LINGUAGENS            : C, Rust, Go, POSIX Shell / Bash, Python, Lua, Typst / TeX
-DESENVOLVIMENTO       : Neovim (Lua), Tmux, Git, GNU Toolchain, Make
-PARADIGMA             : Primeiros Princípios, Teoria de Grafos, Modelagem Dedutiva
-```
+| Camada | Tecnologias &amp; Padrões | Propósito Principal |
+| :--- | :--- | :--- |
+| **Sistemas &amp; Baixo Nível** | C, Rust, Go, POSIX Shell | Engenharia de ferramentas CLI, controle de processos e concorrência |
+| **Sistemas de Arquivos** | Btrfs (Subvolumes CoW, Snapshots) | Persistência atômica e rollbacks instantâneos de estado |
+| **Runtimes de Contêiner** | Podman, Docker Engine, OCI | Isolamento de recursos sob tetos estritos de hardware |
+| **Pesquisa &amp; Prototipagem** | Python, Lua, Typst, LaTeX | Computação científica, autômatos, documentação técnica formal |
+| **Ambiente de Desenvolvimento**| Arch Linux (Kernel &gt;= 6.x), Neovim, Tmux, GNU Make | Fluxo de edição modal orientado a teclado e automação determinística |
 
 ---
 
-### § 04 // Comunicação & Canais Externos
+### § 03 // Conexões & Registros
 
-- **Acervo Principal & Compêndios**: [mepper.xyz](https://mepper.xyz)
-- **Repositório do Acervo**: [`arthur-hfq/mepper`](https://github.com/arthur-hfq/mepper)
-- **Perfil de Código no GitHub**: [`github.com/arthur-hfq`](https://github.com/arthur-hfq)
-- **Dispatches & Notas Técnicas (X)**: [`@my_name_is_arth`](https://x.com/my_name_is_arth)
+- **Acervo Teórico & Compêndios Formais**: [mepper.xyz](https://mepper.xyz)
+- **Notas Técnicas & Dispatches (X)**: [@my_name_is_arth](https://x.com/my_name_is_arth)
+- **Repositórios de Código**: [github.com/arthur-hfq](https://github.com/arthur-hfq?tab=repositories)
 
 ```text
-[ ARQUIVO FORMALIZADO // MEPPER.XYZ // REGISTRO 2026 ]
++------------------------------------------------------------------------------+
+|  MEPPER // ACERVO DE ENGENHARIA DE SISTEMAS // OPEN SOURCE // REV 2026.10    |
++------------------------------------------------------------------------------+
 ```
