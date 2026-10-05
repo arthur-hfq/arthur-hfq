@@ -1,14 +1,14 @@
 # Arthur H. Faria Queiros (@Mepper)
 
 ```text
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  MEPPER // ACERVO TÉCNICO & REGISTRO DE ENGENHARIA DE SISTEMAS               ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║  IDENTIDADE  : Arthur H. Faria Queiros (@Mepper / @arthur-hfq)               ║
-║  OCUPAÇÃO    : Engenharia de Software & Matemática                           ║
-║  STATUS      : REGISTRO: Acervo Ativo // REV 2026.10                         ║
-║  AMBIENTE    : Linux x86_64 (Kernel >= 6.x) // POSIX // Btrfs CoW            ║
-╚══════════════════════════════════════════════════════════════════════════════╝
++------------------------------------------------------------------------------+
+|  MEPPER // ACERVO TÉCNICO & REGISTRO DE ENGENHARIA DE SISTEMAS               |
++------------------------------------------------------------------------------+
+|  IDENTIDADE  : Arthur H. Faria Queiros (@Mepper / @arthur-hfq)               |
+|  OCUPAÇÃO    : Engenharia de Software & Matemática                           |
+|  STATUS      : REGISTRO: Acervo Ativo // REV 2026.10                         |
+|  AMBIENTE    : Linux x86_64 (Kernel >= 6.x) // POSIX // Btrfs CoW            |
++------------------------------------------------------------------------------+
 ```
 
 <div align="center">
@@ -19,9 +19,9 @@
   <br/><br/>
   <code>REGISTRO: Acervo Ativo</code> &nbsp;·&nbsp; <code>REV 2026.10</code> &nbsp;·&nbsp; <code>LÂMINAS B5</code>
   <br/><br/>
-  <a href="https://github.com/arthur-hfq/mepper"><code>[ Acervo Técnico ]</code></a> &nbsp;
-  <a href="https://x.com/my_name_is_arth"><code>[ X (@my_name_is_arth) ]</code></a> &nbsp;
-  <a href="https://github.com/arthur-hfq"><code>[ Repositórios GitHub ]</code></a>
+  <a href="https://mepper.xyz"><code>[ Acervo Técnico (mepper.xyz) ↗ ]</code></a> &nbsp;
+  <a href="https://x.com/my_name_is_arth"><code>[ X (@my_name_is_arth) ↗ ]</code></a> &nbsp;
+  <a href="https://github.com/arthur-hfq"><code>[ Repositórios GitHub ↗ ]</code></a>
 </div>
 
 ---
@@ -32,7 +32,7 @@ Engenheiro de software e estudante dedicado de matemática — com foco formal e
 
 > [!NOTE]
 > **Declaração de Princípios & Natureza do Acervo**
-> Este espaço e seus respectivos repositórios existem com uma finalidade única e intransigente: registrar formalmente o acervo de conteúdo que estudo, investigo e desenvolvo. Todo o material disponibilizado é de acesso inteiramente aberto e pode ser lido, copiado, compartilhado e utilizado sem quaisquer custos, travas de assinatura ou poluição publicitária.
+> Este espaço e o acervo em [mepper.xyz](https://mepper.xyz) existem com uma finalidade única e intransigente: registrar formalmente o acervo de conteúdo que estudo, investigo e desenvolvo. Todo o material disponibilizado é de acesso inteiramente aberto e pode ser lido, copiado, compartilhado e utilizado sem quaisquer custos, travas de assinatura ou poluição publicitária.
 > 
 > Não se trata de tutoriais efêmeros ou receitas para consumo rápido, mas sim de um acervo intelectual voltado primariamente para documentação e consulta fundamentadas no método dedutivo.
 
@@ -55,7 +55,7 @@ Fundamentos da propedêutica formal, estruturação de axiomas, lemas e teoremas
 | **§ f1** | **A Estrutura Tripartite: Axioma, Lema e Teorema** | Arquitetura de derivação lógica e encadeamento formal de premissas |
 | **§ f2** | **Geometria do Suporte: A Lâmina B5 e Modularidade** | Restrição física, densidade tipográfica e atomicidade do conhecimento |
 
-Consulte o acervo integral em: [`arthur-hfq/mepper`](https://github.com/arthur-hfq/mepper).
+Consulte o acervo integral em: [mepper.xyz](https://mepper.xyz).
 
 ---
 
@@ -65,18 +65,18 @@ Consulte o acervo integral em: [`arthur-hfq/mepper`](https://github.com/arthur-h
 *Bespoke Terminal UI & Infrastructure Control Node for Local Containers*
 
 ```text
-╔══════════════════════════════════════════════════════════════╗
-║  [MKB-GRID] INFRASTRUCTURE CONTROL NODE                      ║
-╠══════════════════════════════════════════════════════════════╣
-║  SERVICES DASHBOARD                                          ║
-║  Total Nodes: 4 | Running: 3 | Paused: 1                     ║
-║                                                              ║
-║  ▸ mkb_svc_postgres_5432       Up 4 hours      5432->5432    ║
-║    mkb_svc_redis_6379          Up 4 hours      6379->6379    ║
-║    mkb_svc_kafka_9092          Up 2 hours      9092->9092    ║
-║    mkb_svc_rabbitmq_5672       Exited (0)      5672->5672    ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
++--------------------------------------------------------------+
+|  [MKB-GRID] INFRASTRUCTURE CONTROL NODE                      |
++--------------------------------------------------------------+
+|  SERVICES DASHBOARD                                          |
+|  Total Nodes: 4 | Running: 3 | Paused: 1                     |
+|                                                              |
+|  > mkb_svc_postgres_5432       Up 4 hours      5432->5432    |
+|    mkb_svc_redis_6379          Up 4 hours      6379->6379    |
+|    mkb_svc_kafka_9092          Up 2 hours      9092->9092    |
+|    mkb_svc_rabbitmq_5672       Exited (0)      5672->5672    |
+|                                                              |
++--------------------------------------------------------------+
 ```
 
 - **Classificação**: Infraestrutura & TUI
@@ -95,19 +95,19 @@ Consulte o acervo integral em: [`arthur-hfq/mepper`](https://github.com/arthur-h
 *Docker-Isolated API Stress & Load Testing Engine with Live Telemetry*
 
 ```text
-╔══════════════════════════════════════════════════════════════╗
-║  [MARKAB] STRESS TEST REPORT                                 ║
-╠══════════════════════════════════════════════════════════════╣
-║  ENVIRONMENT : Docker (0.5 CPU | 256m RAM)                   ║
-║  TOTAL REQS  : 100                                           ║
-║  SUCCESS     : 100 (100%)                                    ║
-║  FAILED      : 0 (0%)                                        ║
-║                                                              ║
-║  AVG LATENCY : 14ms (P95: 22ms | P99: 38ms)                  ║
-║  THROUGHPUT  : 168.42 req/s                                  ║
-║  MAX CPU     : 94.0% (Normalized Timeline)                   ║
-║  MAX RAM     : 54.1MiB / 256MiB                              ║
-╚══════════════════════════════════════════════════════════════╝
++--------------------------------------------------------------+
+|  [MARKAB] STRESS TEST REPORT                                 |
++--------------------------------------------------------------+
+|  ENVIRONMENT : Docker (0.5 CPU | 256m RAM)                   |
+|  TOTAL REQS  : 100                                           |
+|  SUCCESS     : 100 (100%)                                    |
+|  FAILED      : 0 (0%)                                        |
+|                                                              |
+|  AVG LATENCY : 14ms (P95: 22ms | P99: 38ms)                  |
+|  THROUGHPUT  : 168.42 req/s                                  |
+|  MAX CPU     : 94.0% (Normalized Timeline)                   |
+|  MAX RAM     : 54.1MiB / 256MiB                              |
++--------------------------------------------------------------+
 ```
 
 - **Classificação**: Sistemas & Concorrência
@@ -150,10 +150,11 @@ PARADIGMA             : Primeiros Princípios, Teoria de Grafos, Modelagem Dedut
 
 ### § 04 // Comunicação & Canais Externos
 
-- **Acervo Principal & Compêndios**: [`arthur-hfq/mepper`](https://github.com/arthur-hfq/mepper)
+- **Acervo Principal & Compêndios**: [mepper.xyz](https://mepper.xyz)
+- **Repositório do Acervo**: [`arthur-hfq/mepper`](https://github.com/arthur-hfq/mepper)
 - **Perfil de Código no GitHub**: [`github.com/arthur-hfq`](https://github.com/arthur-hfq)
 - **Dispatches & Notas Técnicas (X)**: [`@my_name_is_arth`](https://x.com/my_name_is_arth)
 
 ```text
-[ ARQUIVO FORMALIZADO // ACERVO ARTHUR H. FARIA QUEIROS // REGISTRO 2026 ]
+[ ARQUIVO FORMALIZADO // MEPPER.XYZ // REGISTRO 2026 ]
 ```
